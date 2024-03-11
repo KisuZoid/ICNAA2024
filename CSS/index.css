@@ -93,6 +93,7 @@ li ul li {
 
 .navButton{
     background-color: rgba(0, 0, 0, 0.);
+    height: 45px;
     border: none;
     text-align: center;
     text-decoration: none;
