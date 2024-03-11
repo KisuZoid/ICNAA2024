@@ -1,3 +1,16 @@
+body{
+    font-size: x-large;
+}
+hr{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#nav-item{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
 
 ul {
     list-style-type: none;
@@ -79,7 +92,7 @@ li ul li {
 }
 
 .navButton{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -94,9 +107,10 @@ li ul li {
 
 .navButtonII{
     height: 45px;
-    margin-left: -20px;
-    margin-right: -20px;
-    background-color: transparent;
+    width: 70px;
+    margin-left: -23px;
+    margin-right: -23px;
+    background-color:  rgba(0, 0, 0, 0.);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -111,7 +125,7 @@ li ul li {
 
 .navButtonIII{
     height: 45px;
-    background-color: transparent;
+    background-color:  rgba(0, 0, 0, 0.);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -124,87 +138,38 @@ li ul li {
     box-shadow: 4px 4px 8px 0px rgb(90, 90, 90);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 500px) {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+@media (max-width: 900px){
+    body{
+        font-size: large;
     }
-    
-    /* Style the top-level navigation items */
-    li {
-        display: inline-flex;
-        margin-right: 20px;
+    #nav-item{
+        position: static;
+        top: auto;
+        left: auto;
     }
-    
-    /* Style the links */
-    a{
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
+
+    .navButtonII{
+        margin-left: -20px;
+        margin-right: -20px;
     }
-    
-    /* Add hover effect for links */
-    a:hover {
-         color: gray; /* Change to your desired hover color */
-        display: block;
+}
+
+@media (max-width:500px){
+    body{
+        font-size: medium;
     }
-    
-    .ICNAA-2024:hover{
-        color: #333;
-    }
-    
-    
-    /* Style the sub-menu */
-    ul ul {
-        display: none;
-        margin-top: 35px;
-        margin-left: 20px;
-        position: absolute;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        padding: 10px;
-    }
-    
-    #nav-hidden-item-I  li{
-        margin: 10%;
-    }
-    
-    /* Show sub-menu on hover */
-    li:hover ul {
-        display: block;
-        animation: slideIn 0.5s ease forwards;
-    }
-    
-    @keyframes slideIn {
-        0% { opacity: 0; transform: translateX(-20px); }
-        100% { opacity: 1; transform: translateX(0); }
-    }
-    
-    /* Style sub-menu items */
-    li ul li {
-        display: block;
-        margin: 5px 0;
-    }
+}
+
+.main-item-box{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+.footer-text{
+    font-weight: bold;
 }
 
 
