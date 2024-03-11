@@ -84,11 +84,11 @@ li ul li {
 }
 
 .main-item-box > h1{
-    margin-top: 190px;
+    margin-top: 130px;
 }
 
 .main-item-box > p{
-    margin-bottom: 190px;
+    margin-bottom: 130px;
 }
 
 @keyframes upDown {
