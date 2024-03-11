@@ -45,11 +45,11 @@ a:hover {
 /* Style the sub-menu */
 ul ul {
     display: none;
-    margin-top: 35px;
+    margin-top: 42px;
     margin-left: 20px;
     position: absolute;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: rgba(160, 159, 159, 0.9);
+    /* border: 1px solid #ddd; */
     padding: 10px;
 }
 
@@ -72,6 +72,11 @@ li:hover ul {
 li ul li {
     display: block;
     margin: 5px 0;
+    transition: transform 0.2s ease;
+}
+
+li ul li:hover{
+    transform: scale(1.1);
 }
 
 .main-item-box > button{
