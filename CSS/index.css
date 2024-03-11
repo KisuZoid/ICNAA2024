@@ -1,5 +1,6 @@
 body{
     font-size: x-large;
+    margin: 0%;
 }
 hr{
     margin-left: -10px;
@@ -33,7 +34,7 @@ a{
 
 /* Add hover effect for links */
 a:hover {
-     color: gray; /* Change to your desired hover color */
+     color: pink; /* Change to your desired hover color */
     display: block;
 }
 
@@ -79,7 +80,15 @@ li ul li {
     background-color: transparent;   
     animation: upDown 0.5s infinite alternate; /* Animation name, duration, iteration count, direction */
     transform-origin: center;
-    transition: 1s ease; 
+    transition: 1s ease;
+}
+
+.main-item-box > h1{
+    margin-top: 190px;
+}
+
+.main-item-box > p{
+    margin-bottom: 190px;
 }
 
 @keyframes upDown {
@@ -92,7 +101,7 @@ li ul li {
 }
 
 .navButton{
-    background-color: rgba(0, 0, 0, 0.);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 45px;
     border: none;
     text-align: center;
@@ -109,9 +118,9 @@ li ul li {
 .navButtonII{
     height: 45px;
     width: 70px;
-    margin-left: -23px;
-    margin-right: -23px;
-    background-color:  rgba(0, 0, 0, 0.);
+    margin-left: -25px;
+    margin-right: -25px;
+    background-color:  rgba(0, 0, 0, 0.2);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -126,7 +135,7 @@ li ul li {
 
 .navButtonIII{
     height: 45px;
-    background-color:  rgba(0, 0, 0, 0.);
+    background-color:  rgba(0, 0, 0, 0.2);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -147,11 +156,12 @@ li ul li {
         position: static;
         top: auto;
         left: auto;
+        margin-left: 20px;
     }
 
     .navButtonII{
-        margin-left: -20px;
-        margin-right: -20px;
+        margin-left: -23px;
+        margin-right: -23px;
     }
 }
 
@@ -173,4 +183,17 @@ li ul li {
     font-weight: bold;
 }
 
+section{
+    background-image: url(../assets/intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -30px;
+    margin-right: -2px;
+}
 
+.intro-footer{
+    margin: 20px;
+    margin-top: 30px;
+}
