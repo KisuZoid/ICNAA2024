@@ -198,8 +198,19 @@ li ul li:hover{
 
 #footer{
     text-align: center;
+    width: 95%;
+    margin-left: 2%;
 }
 
+.footer-body{
+    background-color: rgb(205, 205, 205);
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+}
 .footer-text{
     font-weight: bold;
 }
