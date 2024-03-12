@@ -4,6 +4,7 @@ body{
     margin: 0%;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    background-color: rgb(205, 205, 205);
 }
 hr{
     margin-left: -10px;
