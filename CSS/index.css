@@ -176,7 +176,7 @@ li ul li:hover{
     }
     
     .main-item-box > p{
-        margin-bottom: 30px;
+        margin-bottom: 23px;
     }
 }
 
@@ -189,7 +189,7 @@ li ul li:hover{
     }
     
     .main-item-box > p{
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 }
 
@@ -233,7 +233,6 @@ section{
 
 .main-item-text{
     animation: SlideUp 0.5s ease-in;
-    margin-bottom: ;
 }
 
 @keyframes SlideUp {
